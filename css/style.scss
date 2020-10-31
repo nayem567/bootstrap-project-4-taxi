@@ -1,0 +1,258 @@
+body {
+    font-family: "Lato", sans-serif;
+    color: #000000;
+
+    .container {
+        max-width: 1200px;
+    }
+
+    $yellow: #ffc61a;
+    .text-yellow {
+        color: #ffc61a;
+    }
+    .bg-yellow {
+        background: #ffc61a;
+    }
+    .bg-black {
+        background: #000000;
+    }
+
+    h1 {
+        font-size: 72px;
+        font-weight: bold;
+    }
+    h2 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+    h3 {
+        font-size: 45px;
+        font-weight: bold;
+    }
+    h4 {
+        font-size: 35px;
+        font-weight: bold;
+    }
+    h5 {
+        font-size: 29.5px;
+        font-weight: bold;
+    }
+    h6 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    p {
+        font-size: 18px;
+    }
+
+    .btn {
+        border-radius: 8px;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+}
+
+// ========================================================
+// ========================================================
+
+header {
+    background: url(../img/Header/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 740px;
+
+    .navbar {
+        padding: 45px 80px;
+    }
+
+    .fa {
+        color: #fff;
+        font-size: 180%;
+    }
+
+    .nav-link {
+        color: #fff;
+        font-size: 1.5rem;
+        border-radius: 10px;
+    }
+
+    .nav-link:hover {
+        background-color: #ffc61a;
+        color: #000000;
+    }
+
+    p {
+        letter-spacing: 12px;
+    }
+}
+
+// =========================
+// Services Section
+// ===========================
+
+.services-section {
+    .right .btn {
+        font-size: 26px;
+    }
+    input {
+        border: 0;
+        border-bottom: #22222231 solid 2px;
+        border-radius: 0;
+    }
+}
+
+// =========================
+// Tariff Section
+// ===========================
+
+.tariff-section {
+    .card {
+        border: 0;
+        background-color: #f5f4f2;
+    }
+    .card-img-top {
+        margin-top: -75px;
+    }
+    .card {
+        position: relative;
+    }
+
+    .card-star {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+// =========================
+// Skill Section
+// ===========================
+
+.skill-section {
+    background-image: url(../img/Header/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+// =========================
+// Service Section
+// ===========================
+
+.testimonial-section {
+    background-image: url(../img/Header/header-bg.jpg);
+
+    .card {
+        border-radius: 2.5rem;
+    }
+}
+
+// =========================
+// Contact Section
+// ===========================
+
+.contact-section {
+    background-image: url(../img/Contact/contact-bg.jpg);
+
+    hr {
+        height: 0.3rem;
+    }
+
+    .fa:hover {
+        color: #ffc61a;
+    }
+}
+
+// =====================================
+// Responsive max 768px
+// =====================================
+
+@media (max-width: 767px) {
+    body {
+        font-size: 80%;
+    }
+
+    .tariff-section {
+        .card {
+            margin-bottom: 5rem;
+        }
+        .car-middle {
+            margin-bottom: 5rem;
+        }
+        .car-low-middle {
+            background-color: #ffc61a;
+        }
+    }
+}
+
+// =====================================
+// Responsive Moblie max 552px
+// =====================================
+
+@media (max-width: 552px) {
+    html {
+        font-size: 50%;
+        h1 {
+            font-size: 45px;
+        }
+        h2 {
+            font-size: 40px;
+        }
+        h3 {
+            font-size: 35px;
+        }
+        h4 {
+            font-size: 30px;
+        }
+        h5 {
+            font-size: 25px;
+        }
+        h6 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 16px;
+        }
+
+        .fa {
+            font-size: 2rem;
+        }
+        .fa-2x {
+            font-size: 4em;
+        }
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        height: 580px;
+
+        p {
+            font-size: 12px;
+            letter-spacing: 4px;
+        }
+
+        .navbar {
+            padding: 15px 15px;
+        }
+
+        .header-info {
+            margin-top: 5rem;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+    }
+
+    .call-section {
+        h3 {
+            font-size: 25px;
+            font-weight: normal;
+        }
+        h1 {
+            font-size: 40px;
+        }
+    }
+}
